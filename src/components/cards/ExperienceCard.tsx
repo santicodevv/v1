@@ -7,7 +7,7 @@ interface ExperienceCardProps {
 }
 
 export const ExperienceCard = ({ experience }: ExperienceCardProps) => {
-  const { date, title, company, description, technologies, link, image } = experience;
+  const { date, title, company, description, link, image } = experience;
 
   const CardWrapper = link ? 'a' : 'div';
   const wrapperProps = link
