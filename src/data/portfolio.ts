@@ -104,6 +104,14 @@ export const projects: Project[] = [
     image: 'https://imgur.com/XQo3yFN.png',
     link: 'https://welinstore.vercel.app',
   },
+  {
+    id: 'healthcore-app',
+    title: 'HealthCore',
+    description:
+      'Sistema integral de gestión clínica con autenticación JWT, gestión de personal, sistema de notificaciones y UI responsiva. Desarrollé el frontend modular con arquitectura de componentes atómicos, hooks personalizados y Context API para estado global.',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Context API'],
+    link: 'https://github.com/yaarielre/HealthCore',
+  },
 ];
 
 export const skillCategories: SkillCategory[] = [
