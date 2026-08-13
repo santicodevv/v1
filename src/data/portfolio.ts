@@ -6,6 +6,7 @@ export interface Experience {
   description: string;
   technologies: string[];
   link?: string;
+  image?: string;
 }
 
 export interface Project {
@@ -45,7 +46,7 @@ export interface Certification {
 }
 
 export const profileData = {
-  name: 'WelinDev',
+  name: 'Welington Santos',
   role: 'Web Developer',
   description: 'Creo experiencias digitales accesibles y con píxeles perfectos para la web.',
   resumeUrl: '/CVs.pdf',
@@ -74,9 +75,10 @@ export const aboutContent = [
 export const experiences: Experience[] = [
   {
     id: 'compassion-cdi-dr0436',
-    date: 'Junio 2025',
+    date: 'Octubre 2025',
     title: 'Junior Software Developer',
     company: 'Compassion (CDI DR0436)',
+    image: 'https://imgur.com/QeaLKtt.png',
     description:
       'Desarrollo y liderazgo técnico en aplicaciones full-stack, trabajando con equipos multidisciplinarios para crear soluciones escalables y seguras en un entorno multi-cloud.',
     technologies: [
@@ -94,22 +96,13 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
-    id: 'sistema-asistencias-cdi',
-    title: 'Sistema de Asistencias CDI',
-    description:
-      'Sistema integral para la gestión de ayudas y asistencias en el CDI. Incluye panel administrativo con control de roles y permisos (RBAC), registro de beneficiarios, control de asistencias, generación de reportes (PDF/Excel) y un módulo de gestión de clases tipo Moodle.',
-    technologies: ['Next.js', 'NestJS', 'PostgreSQL', 'Tailwind CSS', 'TypeScript'],
-    image: 'https://imgur.com/YaPON33.png',
-    link: 'https://app.tbccaminando.org',
-  },
-  {
     id: 'welinstore-app',
     title: 'WelinStore',
     description:
       'E-commerce platform for selling products online for MTA: San Andreas.',
     technologies: ['Next.js', 'NestJS', 'PostgreSQL', 'Tailwind CSS', 'TypeScript'],
     image: 'https://imgur.com/XQo3yFN.png',
-    link: 'https://shop.welinstore.online',
+    link: 'https://welinstore.vercel.app',
   },
 ];
 
