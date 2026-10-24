@@ -49,7 +49,7 @@ export const profileData = {
   name: 'Welington Santos',
   role: 'Web Developer',
   description: 'Creo experiencias digitales accesibles y con píxeles perfectos para la web.',
-  resumeUrl: '/CVs.pdf',
+  resumeUrl: '/Welington Santos CVs - Software Developer.pdf',
 };
 
 export const navigationItems: NavItem[] = [
